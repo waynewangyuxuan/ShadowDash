@@ -3,6 +3,7 @@ cmake -S ..
 make -j $(nproc)
 ls
 ctest
+./ninja_test 
 sudo cp ninja /usr/local/bin/ (move nin to local/bin)
 ninja --version
 
