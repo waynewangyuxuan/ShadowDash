@@ -21,7 +21,6 @@ jobs:
             echo "Start Testing"
             cd build
             ctest
-            ./ninja_test
             echo "Testing Done"
 
 workflows:
