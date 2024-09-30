@@ -12,7 +12,7 @@ jobs:
             echo "Building"
             mkdir build && cd build
             cmake -S ..
-            make
+            make -j $(nproc)
             cd ../
             echo "Built"
       - run:
